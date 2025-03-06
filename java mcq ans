@@ -1,0 +1,418 @@
+1. (A/An) ____________ is a contract in the form of a collection of method and constant declarations. When a class implements (a/an) ____________, it promises to implement all of the methods declared in that ____________.
+A. Abstract Class
+
+B. Interface
+
+C. Object
+
+D. Method Answer: B. Interface
+
+2. The phrase “is a” refers to the object-oriented concept of ____________, and the phrase “has a” refers to the object-oriented concept of ____________.
+A. Inheritance : Polymorphism
+
+B. Polymorphism : Composition
+
+C. Inheritance : Composition
+
+D. Composition : Inheritance Answer: C. Inheritance : Composition
+
+3. How is RunTime Polymorphism achieved in Java?
+A. Method Overloading
+
+B. Method Overriding
+
+C. Constructor Overloading
+
+D. Data Hiding Answer: B. Method Overriding
+
+4. What makes a class abstract?
+A. The class must not have method definitions.
+
+B. The class must have at least one abstract method.
+
+C. The class cannot be instantiated.
+
+D. All of the above. Answer: D. All of the above.
+
+5. Which class is at the top of the exception class hierarchy?
+A. Object
+
+B. Error
+
+C. Throwable
+
+D. Exception Answer: C. Throwable
+
+6. What is the output of the following code?
+java
+public class Test {
+    public static void main(String args[]) {
+        try {
+            int i;
+            return;
+        } catch(Exception e) {
+            System.out.print("inCatchBlock");
+        } finally {
+            System.out.println("inFinallyBlock");
+        }
+    }
+}
+A. inCatchBlock
+
+B. inFinallyBlock
+
+C. inCatchBlockinFinallyBlock
+
+D. Compilation Error Answer: B. inFinallyBlock
+
+7. What is the output of the following program?
+java
+class Output {
+    public static void main(String args[]) {
+        String c = "Hello i love java";
+        boolean var;
+        var = c.startsWith("hello");
+        System.out.println(var);
+    }
+}
+A. true
+
+B. false
+
+C. Compilation Error
+
+D. Runtime Error Answer: B. false
+
+8. If an attribute is private, which methods have access to it?
+A. All methods in the same class and subclasses.
+
+B. Only methods defined in the same package.
+
+C. Only methods defined in the same class.
+
+D. Only public methods. Answer: C. Only methods defined in the same class.
+
+9. The process of building new classes from existing ones is called ____________.
+A. Composition
+
+B. Inheritance
+
+C. Aggregation
+
+D. Polymorphism Answer: B. Inheritance
+
+10. What happens if an array is declared as int a[4] = {3, 0, 1, 2};? What will be the values of a[0] and a[4]?
+A. a[0] = 3, a[4] is undefined (out of bounds)
+
+B. a[0] = 0, a[4] = 4
+
+C. a[0] = 3, a[4] = 2
+
+D. Compilation Error Answer: A. a[0] = 3, a[4] is undefined (out of bounds)
+
+11. Which of these statements about method overloading is TRUE?
+A. Overloaded methods MUST change the argument list.
+
+B. Overloaded methods CAN change the return type.
+
+C. Overloaded methods CAN change the access modifier.
+
+D. All of the above. Answer: D. All of the above.
+
+12. Which statement about an interface is TRUE?
+A. Interface variables must be static.
+
+B. An interface cannot extend anything but other interfaces.
+
+C. You can’t mark an interface as final.
+
+D. All of the above. Answer: D. All of the above.
+
+Let me know if this format works for you or if you'd like to add more questions or concepts! 😊
+
+yes
+Great! I'm glad the format works for you. 😊 Let me know if you'd like to create more MCQs, dive into any specific topic for deeper understanding, or practice other concepts. I'm here to help! 🚀
+
+yes create more
+Sure! Here are more MCQs based on the provided concepts for continued practice:
+
+13. Which of these statements about method overriding is TRUE?
+A. You cannot override a method marked final.
+
+B. You cannot override a method marked static.
+
+C. You can’t override a public method and make it protected.
+
+D. All of the above. Answer: D. All of the above.
+
+14. What is the prototype of the default constructor for a class named Test?
+A. Test()
+
+B. Test(void)
+
+C. public Test()
+
+D. void Test() Answer: A. Test()
+
+15. What does the return type void mean in Java?
+A. It returns no value.
+
+B. It allows the method to return multiple values.
+
+C. It makes the method private.
+
+D. It makes the method static. Answer: A. It returns no value.
+
+16. An aggregate object is:
+A. An instance of a primitive data type.
+
+B. A derived class that overrides methods.
+
+C. An object instance that contains other objects.
+
+D. A method that accepts multiple parameters. Answer: C. An object instance that contains other objects.
+
+17. Which of the following is NOT a key component of Object-Oriented Programming?
+A. Encapsulation
+
+B. Polymorphism
+
+C. Data Abstraction
+
+D. Parallelism Answer: D. Parallelism
+
+18. Which statement is TRUE about constructors?
+A. A constructor must always have a return type.
+
+B. A constructor can be overloaded.
+
+C. A constructor can be marked static.
+
+D. A constructor must always be private. Answer: B. A constructor can be overloaded.
+
+19. What is the relationship between objects and classes?
+A. An object is an instance of a class.
+
+B. A class is an instance of an object.
+
+C. Objects and classes are identical.
+
+D. A class cannot contain multiple objects. Answer: A. An object is an instance of a class.
+
+20. Which of the following is NOT a valid type in Java?
+A. Parallelism
+
+B. Byte code
+
+C. static
+
+D. Throwable Answer: A. Parallelism
+
+21. What happens when you try to execute the following code?
+java
+try {
+    File f = new File("a.txt");
+} catch(Exception e) {
+} catch(IOException io) {
+}
+A. Compilation Error
+
+B. Runtime Error
+
+C. The code runs without issues.
+
+D. IOException will catch the exception. Answer: A. Compilation Error
+
+22. Which property is NOT true for classes?
+A. A class can have static methods and data members.
+
+B. A class can be instantiated.
+
+C. A class does not permit encapsulation.
+
+D. A class can contain abstract methods. Answer: C. A class does not permit encapsulation.
+
+23. Mechanism of deriving a class from another derived class is known as:
+A. Inheritance
+
+B. Multi-level Inheritance
+
+C. Aggregation
+
+D. Composition Answer: B. Multi-level Inheritance
+
+24. Exception handling in Java is targeted at:
+A. Resolving syntax errors.
+
+B. Handling runtime errors.
+
+C. Enhancing compilation speed.
+
+D. Providing parallelism. Answer: B. Handling runtime errors.
+
+25. Data members that are declared static can:
+A. Be used only in static methods.
+
+B. Be used only in private methods.
+
+C. Be shared among all instances of the class.
+
+D. Be overridden in subclasses. Answer: C. Be shared among all instances of the class.
+
+Would you like me to focus on any specific area for more questions? Let’s keep learning! 😊
+
+yes
+Awesome! Let me know the specific area you'd like me to focus on for more questions. Should we dive deeper into object-oriented programming concepts, Java exception handling, polymorphism, or any other topic? I'm ready to tailor the questions to your needs! 😊
+
+yes
+Got it! Let me know the specific topic or area you'd like me to focus on. For example, should we create more questions on Java concepts like inheritance, polymorphism, exception handling, or constructors? Or do you want to explore a different programming topic altogether? Let’s make this engaging and helpful for you! 😊
+
+do more question
+Sure! Let’s create another round of questions to challenge your knowledge and enhance your practice. Here you go:
+
+26. What is method overriding in Java?
+A. Creating multiple methods with the same name but different parameters in the same class.
+
+B. Subclass providing a specific implementation of a method already defined in its parent class.
+
+C. A method that calls itself recursively.
+
+D. A method that has no return type. Answer: B. Subclass providing a specific implementation of a method already defined in its parent class.
+
+27. What will be the output of the following code?
+java
+public class Test {
+    public static void main(String args[]) {
+        try {
+            int num = Integer.parseInt("ten");
+        } catch(NumberFormatException e) {
+            System.out.println("Invalid number format");
+        }
+    }
+}
+A. Invalid number format
+
+B. ten
+
+C. Compilation Error
+
+D. Runtime Error Answer: A. Invalid number format
+
+28. In Java, an abstract class:
+A. Can have abstract methods as well as concrete methods.
+
+B. Cannot have any method implementations.
+
+C. Must be declared final.
+
+D. Can be instantiated. Answer: A. Can have abstract methods as well as concrete methods.
+
+29. The Java compiler translates source code into:
+A. Machine Code
+
+B. Assembly Code
+
+C. Bytecode
+
+D. Intermediate Language Code Answer: C. Bytecode
+
+30. Which of the following statements about constructors is FALSE?
+A. A constructor must have the same name as the class.
+
+B. A constructor cannot be overloaded.
+
+C. A constructor does not have a return type.
+
+D. A constructor is called automatically when an object is created. Answer: B. A constructor cannot be overloaded.
+
+31. What happens when the finally block is present in exception handling?
+A. It is always executed regardless of whether an exception occurred or not.
+
+B. It is executed only when an exception occurs.
+
+C. It is executed only when there is no exception.
+
+D. It is executed before the catch block. Answer: A. It is always executed regardless of whether an exception occurred or not.
+
+32. Which of these is true for Java interfaces?
+A. Methods in an interface are public and abstract by default.
+
+B. Interfaces cannot be implemented by a class.
+
+C. Interface variables can be non-static.
+
+D. You can mark an interface as final. Answer: A. Methods in an interface are public and abstract by default.
+
+33. What is the value of a[1] in the following array declaration?
+java
+int[] a = {10, 20, 30, 40};
+A. 10
+
+B. 20
+
+C. 30
+
+D. 40 Answer: B. 20
+
+34. Which of these is NOT a feature of Object-Oriented Programming?
+A. Polymorphism
+
+B. Encapsulation
+
+C. Inheritance
+
+D. Linear search Answer: D. Linear search
+
+35. What is polymorphism in Object-Oriented Programming?
+A. The ability to define multiple methods with the same name but different implementations.
+
+B. Defining only one method for multiple classes.
+
+C. Restricting the visibility of class members.
+
+D. Reusing code for data encapsulation. Answer: A. The ability to define multiple methods with the same name but different implementations.
+
+36. Which of these is TRUE about static data members?
+A. They belong to the class rather than any object.
+
+B. They can only be accessed inside the same class.
+
+C. They cannot be inherited by subclasses.
+
+D. They must be declared private. Answer: A. They belong to the class rather than any object.
+
+37. Which of the following statements is FALSE about objects in Java?
+A. Objects can have state and behavior.
+
+B. An object is an instance of a class.
+
+C. Objects cannot exist without a class.
+
+D. Objects can only access private data members directly. Answer: D. Objects can only access private data members directly.
+
+38. Which keyword is used to inherit a class in Java?
+A. implement
+
+B. inherit
+
+C. extends
+
+D. super Answer: C. extends
+
+39. In Java, Multilevel Inheritance means:
+A. A single class inheriting multiple classes.
+
+B. A chain of inheritance where one class inherits another, and the next class inherits the previous.
+
+C. Inheriting multiple interfaces simultaneously.
+
+D. A single level of inheritance only. Answer: B. A chain of inheritance where one class inherits another, and the next class inherits the previous.
+
+40. What is the keyword super used for?
+A. To access members of the superclass.
+
+B. To terminate a loop.
+
+C. To create static methods.
+
+D. To call private methods. Answer: A. To access members of the superclass.
