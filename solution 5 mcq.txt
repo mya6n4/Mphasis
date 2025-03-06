@@ -1,0 +1,454 @@
+ mcq 5 java 
+ based on this document mcq
+=====================================
+1. Which SQL operator tests a column for the absence of data?
+A. EXISTS
+
+B. IS NULL
+
+C. NOT NULL
+
+D. LIKE Answer: B. IS NULL
+
+2. Which SQL statement retrieves unique values from a column?
+A. DISTINCT
+
+B. UNIQUE
+
+C. MAX
+
+D. SELECT Answer: A. DISTINCT
+
+3. What does the ALL operator do in SQL?
+A. Checks if all subquery values satisfy the condition
+
+B. Returns true if any one value meets the condition
+
+C. Deletes all rows from a table
+
+D. Checks for NULL values in a column Answer: A. Checks if all subquery values satisfy the condition
+
+4. How many primary keys can a table have?
+A. 0
+
+B. 1
+
+C. 2
+
+D. Unlimited Answer: B. 1
+
+5. Which of the following SQL statements is correct?
+A. SELECT Username, Password FROM Users
+
+B. SELECT FROM Users Password, Username
+
+C. SELECT Username Password FROM Users
+
+D. SELECT Username Password, FROM Users Answer: A. SELECT Username, Password FROM Users
+
+6. Which SQL keyword is used to retrieve a maximum value?
+A. TOP
+
+B. MAX
+
+C. LIMIT
+
+D. AVG Answer: B. MAX
+
+7. What is a SQL view?
+A. A collection of triggers
+
+B. A virtual table based on a query result
+
+C. A table containing metadata
+
+D. A stored procedure Answer: B. A virtual table based on a query result
+
+8. Which SQL clause eliminates duplicate rows in the result set?
+A. DISTINCT
+
+B. UNIQUE
+
+C. GROUP BY
+
+D. COUNT Answer: A. DISTINCT
+
+9. What is the purpose of the WITH clause in SQL?
+A. Create temporary tables for use in a query
+
+B. Modify table structure
+
+C. Perform pattern matching
+
+D. Check for NULL values Answer: A. Create temporary tables for use in a query
+
+10. What does the EXISTS operator do?
+A. Checks for NULL values in a column
+
+B. Returns true if the subquery has at least one row
+
+C. Returns true if all subquery values meet the condition
+
+D. Performs pattern matching Answer: B. Returns true if the subquery has at least one row
+
+11. Which operator is used to compare a value to a set of values?
+A. ALL
+
+B. BETWEEN
+
+C. IN
+
+D. ANY Answer: C. IN
+
+12. Which normal form eliminates transitive dependency?
+A. 1NF
+
+B. 2NF
+
+C. 3NF
+
+D. BCNF Answer: C. 3NF
+
+13. What does the SQL COUNT() function do?*
+A. Counts non-NULL values in a column
+
+B. Counts all rows in a table
+
+C. Counts unique values in a column
+
+D. Counts NULL values in a column Answer: B. Counts all rows in a table
+
+14. Which of the following is not an SQL aggregate function?
+A. COUNT
+
+B. SUM
+
+C. COMPUTE
+
+D. AVG Answer: C. COMPUTE
+
+15. How many rows can the SQL INSERT statement add to a table at once?
+A. One at a time
+
+B. Multiple rows
+
+C. Both A and B
+
+D. None of the above Answer: C. Both A and B
+
+16. What does the SQL ALTER statement do?
+A. Add rows to a table
+
+B. Change the structure of a table
+
+C. Delete data from a table
+
+D. Add constraints to a query Answer: B. Change the structure of a table
+
+17. What is the wildcard character used in SQL LIKE queries?
+A. @
+
+B. %
+
+C. #
+
+D. * Answer: B. %
+
+18. What does the SQL DROP statement do?
+A. Deletes all rows in a table
+
+B. Deletes a table from the database
+
+C. Deletes duplicate rows in a table
+
+D. Deletes constraints from a query Answer: B. Deletes a table from the database
+
+19. What is an entity in database design?
+A. A data type
+
+B. A record
+
+C. A table or object
+
+D. A field Answer: C. A table or object
+
+20. Which normal form ensures atomicity in columns?
+A. 1NF
+
+B. 2NF
+
+C. 3NF
+
+D. 4NF Answer: A. 1NF
+
+21. Which operator checks if a column value is greater than at least one subquery value?
+A. ALL
+
+B. EXISTS
+
+C. ANY
+
+D. IN Answer: C. ANY
+
+22. What is a superkey?
+A. An attribute or set of attributes that uniquely identifies a table
+
+B. A key that enforces NULL values
+
+C. A key that is limited to a single attribute
+
+D. None of the above Answer: A. An attribute or set of attributes that uniquely identifies a table
+
+23. Which command deletes all rows from a table but retains the table structure?
+A. DROP
+
+B. DELETE
+
+C. REMOVE
+
+D. TRUNCATE Answer: D. TRUNCATE
+
+24. Which SQL command is used to delete specific rows from a table?
+A. REMOVE
+
+B. DROP
+
+C. DELETE
+
+D. CLEAR Answer: C. DELETE
+
+25. Which SQL keyword is used with wildcards for pattern matching?
+A. IN
+
+B. EXISTS
+
+C. LIKE
+
+D. BETWEEN Answer: C. LIKE
+
+26. Which SQL statement retrieves data from a database?
+A. INSERT
+
+B. DELETE
+
+C. SELECT
+
+D. UPDATE Answer: C. SELECT
+
+27. Which of the following is NOT a DDL (Data Definition Language) command?
+A. CREATE
+
+B. ALTER
+
+C. DROP
+
+D. UPDATE Answer: D. UPDATE
+
+28. Which SQL function calculates the average value of a column?
+A. SUM
+
+B. AVG
+
+C. MAX
+
+D. COUNT Answer: B. AVG
+
+29. Which SQL clause is used to specify the table being queried?
+A. WHERE
+
+B. FROM
+
+C. SELECT
+
+D. LIKE Answer: B. FROM
+
+30. What does the DISTINCT keyword do?
+A. Filters rows based on a condition
+
+B. Retrieves unique values
+
+C. Counts duplicate rows
+
+D. Displays NULL values Answer: B. Retrieves unique values
+
+31. What does the MIN function return?
+A. The maximum value in a column
+
+B. The smallest value in a column
+
+C. The total number of values in a column
+
+D. The average of all values in a column Answer: B. The smallest value in a column
+
+32. Which operator is used for pattern matching in SQL?
+A. BETWEEN
+
+B. IN
+
+C. LIKE
+
+D. EXISTS Answer: C. LIKE
+
+33. What is a subquery in SQL?
+A. A query written within another query
+
+B. A function that calculates aggregate values
+
+C. A temporary table stored in memory
+
+D. A data manipulation command Answer: A. A query written within another query
+
+34. Which SQL command is used to add a row to a table?
+A. UPDATE
+
+B. DELETE
+
+C. INSERT
+
+D. ALTER Answer: C. INSERT
+
+35. Which SQL keyword eliminates all rows from a table but retains its structure?
+A. DELETE
+
+B. DROP
+
+C. CLEAR
+
+D. TRUNCATE Answer: D. TRUNCATE
+
+36. What does the SQL WHERE clause do?
+A. Joins two tables
+
+B. Filters rows based on a condition
+
+C. Specifies the table being queried
+
+D. Deletes rows from a table Answer: B. Filters rows based on a condition
+
+37. Which SQL statement is used to modify data in a database table?
+A. DELETE
+
+B. ALTER
+
+C. UPDATE
+
+D. INSERT Answer: C. UPDATE
+
+38. What is a wildcard used for in a SQL query?
+A. Sorting rows in ascending order
+
+B. Performing calculations on numeric data
+
+C. Matching patterns in string data
+
+D. Grouping duplicate rows Answer: C. Matching patterns in string data
+
+39. What is the purpose of the HAVING clause in SQL?
+A. Filter aggregate results
+
+B. Sort query results
+
+C. Define a subquery
+
+D. Specify columns in the SELECT list Answer: A. Filter aggregate results
+
+40. Which SQL command adds a new column to an existing table?
+A. MODIFY
+
+B. ALTER TABLE ... ADD
+
+C. INSERT INTO
+
+D. CREATE TABLE Answer: B. ALTER TABLE ... ADD
+
+41. What is the purpose of the GROUP BY clause in SQL?
+A. Filter rows based on a condition
+
+B. Sort rows in ascending order
+
+C. Organize rows into groups for aggregate functions
+
+D. Join two tables in a query Answer: C. Organize rows into groups for aggregate functions
+
+42. Which SQL function returns the total count of rows?
+A. COUNT
+
+B. SUM
+
+C. AVG
+
+D. MAX Answer: A. COUNT
+
+43. Which SQL statement is used to delete a table structure?
+A. DELETE TABLE
+
+B. DROP TABLE
+
+C. REMOVE TABLE
+
+D. CLEAR TABLE Answer: B. DROP TABLE
+
+44. What is the result of the following query?
+sql
+SELECT COUNT(*) FROM employee WHERE SALARY > ALL (SELECT SALARY FROM employee);
+A. Total number of employees
+
+B. 0
+
+C. Highest salary in the table
+
+D. Total salary of all employees Answer: B. 0
+
+45. What is the purpose of the ANY operator?
+A. Returns true if all subquery values satisfy the condition
+
+B. Returns true if any subquery value satisfies the condition
+
+C. Filters NULL values from a column
+
+D. Deletes duplicate rows from a result set Answer: B. Returns true if any subquery value satisfies the condition
+
+46. Which SQL keyword retrieves only unique rows?
+A. UNIQUE
+
+B. DISTINCT
+
+C. GROUP BY
+
+D. ORDER BY Answer: B. DISTINCT
+
+47. Which clause creates a temporary relation in a query?
+A. WITH
+
+B. WHERE
+
+C. FROM
+
+D. SELECT Answer: A. WITH
+
+48. Which of the following is NOT a DDL command?
+A. DROP
+
+B. ALTER
+
+C. CREATE
+
+D. INSERT Answer: D. INSERT
+
+49. What is the purpose of the SQL JOIN statement?
+A. Filter rows based on conditions
+
+B. Combine rows from two or more tables
+
+C. Create a virtual table
+
+D. Perform aggregate functions on data Answer: B. Combine rows from two or more tables
+
+50. Which SQL statement retrieves data from a table with a specific condition?
+A. SELECT ... WHERE
+
+B. SELECT ... GROUP BY
+
+C. SELECT ... ORDER BY
+
+D. SELECT ... DISTINCT Answer: A. SELECT ... WHERE
